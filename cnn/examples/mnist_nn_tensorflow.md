@@ -16,7 +16,7 @@ logit function:
 
 loss function:
 
-     有多重，如logistic、cross entropy等
+     有多种，如logistic、cross entropy等
      
      cross entropy = sum(-y_*log(y)),即预测概率与实际概率越贴近，该值越小
      
