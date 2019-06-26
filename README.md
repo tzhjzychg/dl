@@ -1,5 +1,5 @@
 # DL
-notebook of deep learning
+notebook of deep learning with tf & keras
 ## 目录介绍
 + DL
     + README.md  简介
