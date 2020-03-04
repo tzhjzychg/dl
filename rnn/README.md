@@ -5,7 +5,12 @@
   【模型理解】 
   
        不要被时间维度上展开图误导（比较流行的那个，我第一次看时顿生迷茫），实际上是RNN可以理解成一个全连接网络结构如下：
-![Image](https://github.com/tzhjzychg/dl/blob/master/material/RNN%E7%BB%8F%E5%85%B8%E7%BB%93%E6%9E%84.png)
+<p align="center">
+	<img src="https://github.com/tzhjzychg/dl/blob/master/material/RNN%E7%BB%8F%E5%85%B8%E7%BB%93%E6%9E%84.png" alt="Sample"  width="300" height="200">
+	<p align="center">
+		<em>RNN典型结构图</em>
+	</p>
+</p>
   
   【字符说明】 
   
