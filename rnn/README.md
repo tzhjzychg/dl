@@ -43,7 +43,17 @@
 	</p>
 </p>
     
-   【数据维度转化】
+   【数据维度变化】
        
-       假设在第1个时刻，input数据集取[:,0,:]，即input数据维度为（128,28）。
+       单次循环中模型输入：假设当前为第1个时刻，输入取源数据集[:,0,:]，即输入数据维度为（128,28）；
+       输入数据转化:input为(128,200);
+       隐含层转化：Ht为(128,200);
+       输出层转化：(128,10)。
+       
+<p align="center">
+	<img src="https://github.com/tzhjzychg/dl/blob/master/material/mnist%E6%A0%B7%E6%9C%AC%E5%9B%BE%E8%A7%A32.png" alt="Sample">
+	<p align="center">
+		<em>RNN过程数据维度变化</em>
+	</p>
+</p>
 [*诸图引用请添加来源*](https://github.com/tzhjzychg/dl/blob/master/material/)
