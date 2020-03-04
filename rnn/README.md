@@ -39,7 +39,7 @@
 <p align="center">
 	<img src="https://github.com/tzhjzychg/dl/blob/master/material/mnist%E6%A0%B7%E6%9C%AC%E5%9B%BE%E8%A7%A31.png" alt="Sample">
 	<p align="center">
-		<em>RNN典型结构图</em>
+		<em>RNN循环过程输入数据截取模式</em>
 	</p>
 </p>
     
