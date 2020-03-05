@@ -59,6 +59,7 @@
 
    【结果的输出】
        
+       上述是循环中的某次过程，若是全部循环的，需要在中间增加一个维度（:,step_n,:）
        取最后一次的output
 
 [*诸图引用请添加来源*](https://github.com/tzhjzychg/dl/blob/master/material/)
