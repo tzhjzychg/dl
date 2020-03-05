@@ -67,7 +67,7 @@
         输入层
 	输入单隐层
 	RNN Cell单层
-	输出单隐层	
+	输出单隐层
         输出层
 
 [*诸图引用请添加来源*](https://github.com/tzhjzychg/dl/blob/master/material/)
