@@ -59,15 +59,15 @@
 
    【补充：隐含层RNN Cell的输出】
        
-       上述是循环中的某次过程，若是全部循环的，需要在中间增加一个维度，即output维度为（:,step_n,:）
-       output在最后的t时刻的输出，即output[:,-1,:]
-       
-   【总体单层RNN cell 的结构】
-        
-	输入层
-	输入单隐层
-	RNN Cell单层
-	输出单隐层
-	输出层
+       上述是循环中的某次过程，若是全部循环的，需要在中间增加一个维度，即H all维度为（:,step_n,:）。
+       RNN Cell输出看应用情况，若是一般分类任务，则cell 的 output（H all）在最后的t时刻的输出，即[:,-1,:]，或者Hn，或者status。
+       解释如下图：
+
+<p align="center">
+	<img src="https://github.com/tzhjzychg/dl/blob/master/material/%E7%AE%80%E5%8D%95RNN%E5%9B%BE%E8%A7%A3.png" alt="Sample">
+	<p align="center">
+		<em>简单RNN分类任务全过程</em>
+	</p>
+</p>
 
 [*诸图引用请添加来源*](https://github.com/tzhjzychg/dl/blob/master/material/)
