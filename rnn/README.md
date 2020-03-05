@@ -57,9 +57,17 @@
 	</p>
 </p>
 
-   【结果的输出】
+   【补充：隐含层RNN Cell的输出】
        
-       上述是循环中的某次过程，若是全部循环的，需要在中间增加一个维度（:,step_n,:）
-       取最后一次的output
+       上述是循环中的某次过程，若是全部循环的，需要在中间增加一个维度，即output维度为（:,step_n,:）
+       output在最后的t时刻的输出，即output[:,-1,:]
+       
+   【总体单层RNN cell 的结构】
+        
+        输入层
+	输入单隐层
+	RNN Cell单层
+	输出单隐层	
+        输出层
 
 [*诸图引用请添加来源*](https://github.com/tzhjzychg/dl/blob/master/material/)
