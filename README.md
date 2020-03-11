@@ -20,4 +20,4 @@ notebook of deep learning with tf & keras
             
     + rnn 循环神经网络
         + samples 案例
-        + mnist_lstm_tensorflow.py 基于单隐层LSTM网络的MNIST识别脚本
+            + mnist_lstm_tensorflow.py 基于单隐层LSTM网络的MNIST识别脚本
