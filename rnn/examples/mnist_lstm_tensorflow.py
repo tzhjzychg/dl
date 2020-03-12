@@ -75,8 +75,8 @@ def RNN(X,weights,biases):
     ## 返回两个结果，这个是循环执行后的结果,lstm，其中：
     ### outputs：表示rnn循环隐含层的直接结果输出，shape为（128,28,200）(可能有其他形状，如上解释)；
     ### final_state:有两个元素，在一个tuple里：
-    #### final_state[0]:c_state，shape为（128,28,200）
-    #### final_state[1]:h_state，shape为（128,200）,维度转换好了，可以直接作为总的RNN输出用的
+    #### final_state[0]:c_state，shape为（128,28,200)，遗忘门矩阵
+    #### final_state[1]:h_state，shape为（128,200）,维度转换好了，可以直接作为总的RNN输出用的，实际上是outputs的最后t时刻的输出
     outputs, final_state = tf.nn.dynamic_rnn(cell=lstm_cell,inputs=X_in,initial_state=init_state,time_major=False)
 
     # 最后是 output_layer 和 return 的值. 因为这个例子的特殊性, 有两种方法可以求得 results.
